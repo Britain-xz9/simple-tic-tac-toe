@@ -36,6 +36,8 @@ export function calculateWinner(squares: Array<string>) {
   return null;
 }
 
+// test comment
+
 export default function Board({ xIsNext, squares, onPlay }: BoardProps) {
   let status;
 
